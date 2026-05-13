@@ -1,0 +1,22 @@
+{
+  "name": "flyboyy-itinerary-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flight itinerary document generator for visa-support travel plans and agency quotes.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide": "^1.14.0",
+    "lucide-static": "^1.14.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.12"
+  }
+}

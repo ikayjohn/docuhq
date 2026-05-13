@@ -1,0 +1,194 @@
+{
+  "report_metadata": {
+    "report_type": "Credit Profile Report",
+    "status": "Production Credit File",
+    "report_date": "2026-05-07",
+    "report_reference": "CR-AUTO",
+    "data_source": "Verified credit data"
+  },
+  "consumer": {
+    "full_name": "Melinda Gibson",
+    "date_of_birth": "1982-04-10",
+    "ssn_last_four": null,
+    "current_address": {
+      "street": "1148 S Washington Ave",
+      "city": "Royal Oak",
+      "state": "MI",
+      "zip_code": "48067",
+      "country": "USA"
+    },
+    "previous_addresses": [
+      {
+        "street": "2219 Hazel Street",
+        "city": "Detroit",
+        "state": "MI",
+        "zip_code": "48212",
+        "country": "USA",
+        "reported_date": "2021-08-15"
+      }
+    ],
+    "employer": {
+      "name": "Northline Home Services",
+      "position": "Administrative Coordinator",
+      "reported_date": "2025-11-30"
+    }
+  },
+  "scores": {
+    "primary_score": 577,
+    "score_range": {
+      "minimum": 300,
+      "maximum": 850
+    },
+    "rating": "Poor",
+    "bureau_scores": {
+      "experian": 574,
+      "equifax": 581,
+      "transunion": 576
+    },
+    "average_score": 577,
+    "score_trend": "Slightly Declining",
+    "previous_score": 592,
+    "score_change": -15,
+    "last_updated": "2026-04-30"
+  },
+  "credit_summary": {
+    "open_accounts": 7,
+    "closed_accounts": 5,
+    "accounts_in_good_standing": 6,
+    "delinquent_accounts": 2,
+    "collection_accounts": 0,
+    "charge_off_accounts": 1,
+    "public_records": 0,
+    "hard_inquiries": 5,
+    "soft_inquiries": 4,
+    "total_revolving_balance": 7340,
+    "total_credit_limit": 9400,
+    "overall_utilization_percent": 78,
+    "total_installment_balance": 18450,
+    "total_collection_balance": 0,
+    "total_debt": 27435,
+    "oldest_account_age_years": 10,
+    "average_account_age_years": 4.2
+  },
+  "revolving_accounts": [
+    {
+      "creditor": "Capital One Bank USA",
+      "account_type": "Credit Card",
+      "account_number_masked": "XXXX-2398",
+      "ownership": "Individual",
+      "status": "Open",
+      "payment_status": "Current",
+      "date_opened": "2019-06-14",
+      "credit_limit": 2500,
+      "balance": 2180,
+      "available_credit": 320,
+      "utilization_percent": 87,
+      "monthly_payment": 95,
+      "highest_balance": 2410,
+      "last_payment_date": "2026-04-19",
+      "last_reported": "2026-04-30",
+      "account_health": "Needs Attention"
+    },
+    {
+      "creditor": "Discover Bank",
+      "account_type": "Credit Card",
+      "account_number_masked": "XXXX-7712",
+      "ownership": "Individual",
+      "status": "Open",
+      "payment_status": "Current",
+      "date_opened": "2021-03-08",
+      "credit_limit": 1800,
+      "balance": 1560,
+      "available_credit": 240,
+      "utilization_percent": 87,
+      "monthly_payment": 70,
+      "highest_balance": 1750,
+      "last_payment_date": "2026-04-21",
+      "last_reported": "2026-04-29",
+      "account_health": "Needs Attention"
+    }
+  ],
+  "installment_accounts": [
+    {
+      "creditor": "Ally Financial",
+      "account_type": "Auto Loan",
+      "account_number_masked": "XXXX-5291",
+      "ownership": "Individual",
+      "status": "Open",
+      "payment_status": "Current",
+      "date_opened": "2022-07-11",
+      "original_loan_amount": 23200,
+      "current_balance": 15100,
+      "monthly_payment": 412,
+      "loan_term_months": 72,
+      "last_payment_date": "2026-04-10",
+      "last_reported": "2026-04-25",
+      "account_health": "Good"
+    }
+  ],
+  "closed_accounts": [
+    {
+      "creditor": "Bank of America",
+      "account_type": "Credit Card",
+      "account_number_masked": "XXXX-6577",
+      "ownership": "Individual",
+      "status": "Closed",
+      "closed_by": "Credit Grantor",
+      "date_opened": "2016-02-19",
+      "date_closed": "2024-09-15",
+      "credit_limit": 1500,
+      "highest_balance": 1498,
+      "balance": 0,
+      "final_status": "Paid as Agreed",
+      "amount_charged_off": 0,
+      "last_reported": "2026-04-15",
+      "account_health": "Good"
+    },
+    {
+      "creditor": "Webster Bank",
+      "account_type": "Credit Card",
+      "account_number_masked": "XXXX-8842",
+      "ownership": "Individual",
+      "status": "Closed",
+      "closed_by": "Consumer",
+      "date_opened": "2017-09-11",
+      "date_closed": "2023-10-06",
+      "credit_limit": 2200,
+      "highest_balance": 1240,
+      "balance": 0,
+      "final_status": "Paid as Agreed",
+      "last_reported": "2023-10-20",
+      "account_health": "Good"
+    }
+  ],
+  "collection_accounts": [],
+  "inquiries": {
+    "hard_inquiries": [
+      {
+        "company": "Capital One Bank USA",
+        "date": "2026-03-26",
+        "purpose": "Credit Card Application",
+        "impact_level": "Low"
+      }
+    ],
+    "soft_inquiries": [
+      {
+        "company": "Experian Consumer Services",
+        "date": "2026-04-30",
+        "purpose": "Consumer Disclosure"
+      }
+    ]
+  },
+  "presentation_summary": {
+    "short_summary": "Melinda Gibson has a 577 credit score, placing the profile in the poor credit range.",
+    "landlord_friendly_summary": "Additional income verification, deposit, or supporting explanation may be requested.",
+    "lender_friendly_summary": "The credit file reflects elevated risk due to high revolving utilization and delinquencies."
+  },
+  "privacy_settings": {
+    "mask_ssn": true,
+    "mask_account_numbers": true,
+    "hide_full_dob_on_export": true,
+    "watermark_exports": true,
+    "show_demo_watermark": false
+  }
+}
